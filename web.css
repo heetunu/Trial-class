@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.background-section {
+  height: 100vh;
+  text-align: center;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#section1 {
+  background-image: url("https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+#section2 {
+  background-image: url("https://images.pexels.com/photos/2531709/pexels-photo-2531709.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.content-section {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+.content-section p {
+  margin: 0 auto;
+  font-size: large;
+} */
+
+/* HTML POSITIONING */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-section2 {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.text {
+  position: relative;
+  z-index: 1;
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.content-section2 {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.content-section2 p {
+  margin: 0 auto;
+  font-size: large;
+  max-width: 600px;
+} */
+
+/* CSS SELECTORS */
+
+/* div p {
+  color: red;
+}
+div > p {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+div,
+span {
+  border: 1px solid red;
+  margin: 20px;
+}
+
+.para {
+  border: 1px solid blue;
+}
+* {
+  color: red;
+  font-style: italic;
+  font-size: larger;
+} 
+body {
+  margin: 0;
+  border: 1px solid;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: black;
+}
+p:hover {
+  color: red;
+}
+div ~ p {
+  color: red;
+}
+a:visited {
+  color: red;
+}
+p::first-letter {
+  color: darksalmon;
+}
+ */
+
+
+/* Form */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+  }
+  main {
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 18px;
+  }
+  h1 {
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    padding-top: 10px;
+  }
+  input[type="email"],
+  input[type="number"],
+  input[type="text"],
+  input[type="date"],
+  textarea,
+  select {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+  }
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="text"]:focus,
+  input[type="date"]:focus,
+  textarea:focus {
+    border-color: red;
+  }
+  input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    position: relative;
+  }
+  input[type="checkbox"]:checked::before {
+    content: "\2705";
+    position: absolute;
+    top: -5%;
+    left: 5%;
+  }
+  #email {
+    background-color: blue;
+  }
+  .number {
+    background-color: red;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  button:hover {
+    background-color: blue;
+  }
+  fieldset {
+    margin-top: 20px;
+    border: none;
+  }
+  legend {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+
+/* table */
+table {
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  table,
+  th ,
+  td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  th {
+    background-color: aqua;
+    font-size: 20px;
+  }
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f1;
+  }
+  tr:hover {
+    background-color: chartreuse;
+  }
+  #nested {
+    background-color: coral;
+  }
+
+
+  /* Grid */
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 100px 200px; /* Two columns */
+    grid-template-rows: 100px 100px; /* Two rows */
+    gap: 10px; /* Space between items */
+    column-gap: 50px; /* Space between columns */
+    row-gap: 50px; /* Space between rows */
+  }
+  .grid-itemm {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .grid-itemm:nth-child(3) {
+    grid-area: 2/ 1 ; /* row start / column start / row end / column end */
+  }
+  
+  .grid-container1 {
+    width: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    grid-template-rows: 30px 150px;
+  }
+  .grid-items {
+    border: 1px solid black;
+  }
+  
+  .grid-container2 {
+    display: grid;
+    margin: 30px 0;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    grid-template-areas:
+      "sidebar header"
+      "sidebar content"
+      "footer footer";
+  }
+  .header {
+    grid-area: header;
+    background: lightcoral;
+    padding: 10px;
+  }
+  .sidebar {
+    grid-area: sidebar;
+    background: lightgreen;
+    padding: 50px;
+  }
+  .content {
+    grid-area: content;
+    background: lightblue;
+    padding: 50px;
+  }
+  .footer {
+    grid-area: footer;
+    background: lightgoldenrodyellow;
+    padding: 10px;
+  }
+
+
+  /* Transition and animation */
+
+
+.transition-box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition: height 6s, opacity 6s, width 3s, background-color 3s, font-size 3s;
+  }
+  .transition-box:hover {
+    width: 500px;
+    height: 500px;
+    opacity: 0.1;
+    background-color: coral;
+    font-size: 155px;
+  }
+  .box {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition-property: width, height;
+    transition-duration: 2s, 4s;
+    transition-delay: 0.5s, 0.5s;
+    animation: example 5s infinite;
+  }
+  .box:hover {
+    width: 200px;
+    height: 300px;
+    background-color: pink;
+  }
+  @keyframes example {
+    from {
+      background-color: blue;
+    }
+    to {
+      background-color: yellow;
+    }
+  }
+  .translate-box {
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+  }
+  .translate-box:hover {
+    transform: skewx(30deg);
+  }
+  .animated-box {
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 99%;
+    background-color: red;
+    position: relative;
+    animation: move 10s 1;
+  }
+  @keyframes move {
+    0% {
+      left: 0;
+      background-color: red;
+    }
+    25% {
+      left: 200px;
+      background-color: green;
+      border: 5px solid;
+    }
+    50% {
+      left: 700px;
+      background-color: blue;
+    }
+  
+    100% {
+      left: 100px;
+      background-color: yellow;
+    }
+  }
+  .rotate-box {
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    transform: skewY(48deg);
+    background-color: red;
+  }
+  .rotateX-box {
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .rotateX-box:hover {
+    transform: scaleX(1.5);
+  } 
+  .perspective-container {
+    perspective: 300px;
+    border: 1px solid;
+  }
+  
+  .perspective-box {
+    /* width: 100px;
+    height: 100px; */
+    margin: 50px;
+    font-size: 100px;
+    /* background-color: orange; */
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .perspective-box:hover {
+    transform: rotateX(45deg);
+  }
+  

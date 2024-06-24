@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class work</title>
+    <link rel="stylesheet" href="./web.css">
+</head>
+
+<body>
+
+
+
+    <!-- POSITIONING -->
+    <!-- <div class="section">
+      <div class="background-section2" id="section12">
+        <img
+          src="https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="Background 1"
+          class="background-image"
+        />
+        <div class="text">
+          <h1>Welcome to our first day in Class</h1>
+        </div>
+      </div>
+    </div>
+    <div class="content-section2">
+      <p>This is content one, you can scroll down to see another content</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, esse.
+        Nesciunt porro quis expedita unde.
+      </p>
+    </div>
+    <div class="section">
+      <div class="background-section2" id="section22">
+        <img
+          src="https://images.pexels.com/photos/2531709/pexels-photo-2531709.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="Background 2"
+          class="background-image"
+        />
+        <div class="text">
+          <h1>This is going to look Great !!!</h1>
+        </div>
+      </div>
+    </div>
+    <div class="content-section2">
+      <p>More content can go in here</p>
+    </div> -->
+
+    <!-- CSS POSITIONING -->
+    <!-- <div class="background-section" id="section1">
+      <h1>Welcome to our first day in Class</h1>
+    </div>
+    <div class="content-section">
+      <p>This is content one, you can scroll down to see another content</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, esse.
+        Nesciunt porro quis expedita unde.
+      </p>
+    </div>
+    <div class="background-section" id="section2">
+      <h1>This is going to look Great !!!</h1>
+    </div>
+    <div class="content-section">
+      <p>More content can go in here</p>
+    </div> -->
+    <hr>
+    <hr>
+    <!-- Form -->
+      FORMS
+    <main>
+       
+        <h1>Survey Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="name of customers" />
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="date" id="DOB" />
+            <label for="number">Phone Number</label>
+            <input type="number" name="number" id="number" class="number" />
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="1" max="30" />
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <fieldset>
+                <legend>Sevices offered</legend>
+                <input type="checkbox" name="lashes" id="lashes" placeholder="" />
+                <label for="lashes">Lashes</label>
+                <br />
+                <input type="checkbox" name="nails" id="nails" />
+                <label for="nails">Nails</label>
+                <br />
+                <input type="checkbox" name="jewelries" id="jewelries" />
+                <label for="jewelries">Jewelries</label>
+            </fieldset>
+            <label for="message">Additional Message:</label>
+            <textarea name="" id="" rows="5"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <hr>
+    <hr> <br> <br>
+    <!-- table -->
+     TABLES
+    <table>
+        <!-- One way to create a table using thead and tbody -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Contact</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <table>
+                        <tr>
+                            <th id="nested">Phone no</th>
+                            <th id="nested">Email</th>
+                        </tr>
+                        <tr>
+                            <td>0814244444444</td>
+                            <td>www.itunu.com</td>
+                        </tr>
+
+                        <tr>
+                            <td>0814244444444</td>
+                            <td>www.itunu.com</td>
+                        </tr>
+                        <tr>
+                            <td>0814244444444</td>
+                            <td>www.itunu.com</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>20</td>
+                <td>Female</td>
+                <td>
+                    <a href="https://web.facebook.com/">Facebook.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Blessing</td>
+                <td>20</td>
+                <td>Female</td>
+                <td>
+                    <a href="https://web.facebook.com/">Facebook.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Omolulu</td>
+                <td>20</td>
+                <td>Female</td>
+                <td>
+                    <a href="https://web.facebook.com/">Facebook.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">wisdom and joy</td>
+                <td>
+                    <a href="https://web.facebook.com/">Facebook.com</a>
+                </td>
+
+            </tr>
+        </tbody>
+        <!-- another structure to create a table making the headings horizontally as against it's default vertically  -->
+        <!-- <tr>
+      <th>header 1</th>
+      <td>header 2</td>
+      <td>header 3</td>
+    </tr>
+    <tr>
+      <th>header 2</th>
+      <td>header 2</td>
+      <td>header 3</td>
+    </tr> -->
+    </table>
+<br> <br> <hr><hr> <br> <br>
+<!-- Grid -->
+<!-- Grid -->
+ GRID
+<div class="grid-container1">
+    <div class="grid-items">1</div>
+    <div class="grid-items">2</div>
+    <div class="grid-items">3</div>
+    <div class="grid-items">4</div>
+    <div class="grid-items">5</div>
+    <div class="grid-items">6</div>
+    <div class="grid-items">7</div>
+  </div>
+
+  <!-- Grid Patterns -->
+  <div class="grid-container2">
+    <div class="header">Header</div>
+    <div class="sidebar">Sidebar</div>
+    <div class="content">Content</div>
+    <div class="footer">Footer</div>
+  </div>
+  <!-- Grid Patterns -->
+  <div class="grid-container3">
+    <div class="grid-itemm">grid 1</div>
+    <div class="grid-itemm">gird 2</div>
+    <div class="grid-itemm">grid 3</div>
+    <div class="grid-itemm">grid 4</div>
+    <div class="grid-itemm">grid 5</div>
+  </div>
+TRANSITION AND ANIMATION
+  <!-- CSS Transition -->
+  <div class="transition-box">jjj</div>
+  <div class="box"></div>
+  <div class="translate-box"></div>
+  <div class="animated-box"></div>
+  <div class="rotate-box"></div>
+  <div class="rotateX-box"></div>
+  <div class="perspective-container">
+    <div class="perspective-box">Omololu</div>
+  </div>
+
+
+</body>
+
+</html>
